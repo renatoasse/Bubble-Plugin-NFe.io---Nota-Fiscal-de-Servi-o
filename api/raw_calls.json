@@ -1,0 +1,942 @@
+{
+    "calls": {
+        "AcO": {
+            "headers": {
+                "AcP": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "Ahg": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "📄 Listar NFSe",
+            "publish_as": "data",
+            "rank": 6,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.AcO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AcO\":{\"caption\":\"📄 Listar NFSe\",\"fields\":{\"_p_serviceInvoices\":{\"ret_value\":\"list.api.1606080141691x984684519179157500.plugin_api.AcO.serviceInvoices\",\"caption\":\"serviceInvoices\",\"path\":[\"serviceInvoices\"]},\"_p_totalResults\":{\"ret_value\":\"number\",\"caption\":\"totalResults\",\"sample_value\":0,\"path\":[\"totalResults\"]},\"_p_totalPages\":{\"ret_value\":\"number\",\"caption\":\"totalPages\",\"sample_value\":1,\"path\":[\"totalPages\"]},\"_p_page\":{\"ret_value\":\"number\",\"caption\":\"page\",\"sample_value\":1,\"path\":[\"page\"]}}},\"plugin_api.AcO.serviceInvoices\":{\"caption\":\"📄 Listar NFSe serviceInvoice\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"5fb402073d6b070dcca32d3a\",\"path\":[\"id\"]},\"_p_environment\":{\"ret_value\":\"text\",\"caption\":\"environment\",\"sample_value\":\"Development\",\"path\":[\"environment\"]},\"_p_flowStatus\":{\"ret_value\":\"text\",\"caption\":\"flowStatus\",\"sample_value\":\"Issued\",\"path\":[\"flowStatus\"]},\"_p_provider.tradeName\":{\"ret_value\":\"text\",\"caption\":\"provider tradeName\",\"sample_value\":\"ASSE MARKETING\",\"path\":[\"provider\",\"tradeName\"]},\"_p_provider.taxRegime\":{\"ret_value\":\"text\",\"caption\":\"provider taxRegime\",\"sample_value\":\"SimplesNacional\",\"path\":[\"provider\",\"taxRegime\"]},\"_p_provider.specialTaxRegime\":{\"ret_value\":\"text\",\"caption\":\"provider specialTaxRegime\",\"sample_value\":\"Nenhum\",\"path\":[\"provider\",\"specialTaxRegime\"]},\"_p_provider.legalNature\":{\"ret_value\":\"text\",\"caption\":\"provider legalNature\",\"sample_value\":\"SociedadeEmpresariaLimitada\",\"path\":[\"provider\",\"legalNature\"]},\"_p_provider.issRate\":{\"ret_value\":\"number\",\"caption\":\"provider issRate\",\"sample_value\":0,\"path\":[\"provider\",\"issRate\"]},\"_p_provider.parentId\":{\"ret_value\":\"text\",\"caption\":\"provider parentId\",\"sample_value\":\"5fb3eda48e9d092798b774ce\",\"path\":[\"provider\",\"parentId\"]},\"_p_provider.id\":{\"ret_value\":\"text\",\"caption\":\"provider id\",\"sample_value\":\"5fb3edcef408510d10d37d45\",\"path\":[\"provider\",\"id\"]},\"_p_provider.name\":{\"ret_value\":\"text\",\"caption\":\"provider name\",\"sample_value\":\"ASSE MARKETING E MIDIAS LTDA\",\"path\":[\"provider\",\"name\"]},\"_p_provider.federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"provider federalTaxNumber\",\"sample_value\":36574385000148,\"path\":[\"provider\",\"federalTaxNumber\"]},\"_p_provider.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"provider address postalCode\",\"sample_value\":\"88117-000\",\"path\":[\"provider\",\"address\",\"postalCode\"]},\"_p_provider.address.street\":{\"ret_value\":\"text\",\"caption\":\"provider address street\",\"sample_value\":\"Avenida Leoberto Leal\",\"path\":[\"provider\",\"address\",\"street\"]},\"_p_provider.address.number\":{\"ret_value\":\"text\",\"caption\":\"provider address number\",\"sample_value\":\"790\",\"path\":[\"provider\",\"address\",\"number\"]},\"_p_provider.address.additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"provider address additionalInformation\",\"sample_value\":\"\",\"path\":[\"provider\",\"address\",\"additionalInformation\"]},\"_p_provider.address.district\":{\"ret_value\":\"text\",\"caption\":\"provider address district\",\"sample_value\":\"Barreiros\",\"path\":[\"provider\",\"address\",\"district\"]},\"_p_provider.address.city.code\":{\"ret_value\":\"text\",\"caption\":\"provider address city code\",\"sample_value\":\"4216602\",\"path\":[\"provider\",\"address\",\"city\",\"code\"]},\"_p_provider.address.city.name\":{\"ret_value\":\"text\",\"caption\":\"provider address city name\",\"sample_value\":\"São José\",\"path\":[\"provider\",\"address\",\"city\",\"name\"]},\"_p_provider.address.state\":{\"ret_value\":\"text\",\"caption\":\"provider address state\",\"sample_value\":\"SC\",\"path\":[\"provider\",\"address\",\"state\"]},\"_p_provider.status\":{\"ret_value\":\"text\",\"caption\":\"provider status\",\"sample_value\":\"Active\",\"path\":[\"provider\",\"status\"]},\"_p_provider.type\":{\"ret_value\":\"text\",\"caption\":\"provider type\",\"sample_value\":\"LegalPerson, Company\",\"path\":[\"provider\",\"type\"]},\"_p_provider.createdOn\":{\"ret_value\":\"date\",\"caption\":\"provider createdOn\",\"sample_value\":\"2020-11-17T15:35:42.4433544+00:00\",\"path\":[\"provider\",\"createdOn\"]},\"_p_provider.modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"provider modifiedOn\",\"sample_value\":\"2020-11-17T15:35:42.6347462+00:00\",\"path\":[\"provider\",\"modifiedOn\"]},\"_p_borrower.id\":{\"ret_value\":\"text\",\"caption\":\"borrower id\",\"sample_value\":\"5fb402073d6b070dcca32d3b\",\"path\":[\"borrower\",\"id\"]},\"_p_borrower.name\":{\"ret_value\":\"text\",\"caption\":\"borrower name\",\"sample_value\":\"Joao Silva\",\"path\":[\"borrower\",\"name\"]},\"_p_borrower.federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"borrower federalTaxNumber\",\"sample_value\":29247321077,\"path\":[\"borrower\",\"federalTaxNumber\"]},\"_p_borrower.email\":{\"ret_value\":\"text\",\"caption\":\"borrower email\",\"sample_value\":\"renato@semcodar.com.br\",\"path\":[\"borrower\",\"email\"]},\"_p_borrower.address.country\":{\"ret_value\":\"text\",\"caption\":\"borrower address country\",\"sample_value\":\"BRA\",\"path\":[\"borrower\",\"address\",\"country\"]},\"_p_borrower.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"borrower address postalCode\",\"sample_value\":\"88015-710\",\"path\":[\"borrower\",\"address\",\"postalCode\"]},\"_p_borrower.address.street\":{\"ret_value\":\"text\",\"caption\":\"borrower address street\",\"sample_value\":\"Av Beira Mar\",\"path\":[\"borrower\",\"address\",\"street\"]},\"_p_borrower.address.number\":{\"ret_value\":\"text\",\"caption\":\"borrower address number\",\"sample_value\":\"3000\",\"path\":[\"borrower\",\"address\",\"number\"]},\"_p_borrower.address.district\":{\"ret_value\":\"text\",\"caption\":\"borrower address district\",\"sample_value\":\"Centro\",\"path\":[\"borrower\",\"address\",\"district\"]},\"_p_borrower.address.city.code\":{\"ret_value\":\"text\",\"caption\":\"borrower address city code\",\"sample_value\":\"4205407\",\"path\":[\"borrower\",\"address\",\"city\",\"code\"]},\"_p_borrower.address.city.name\":{\"ret_value\":\"text\",\"caption\":\"borrower address city name\",\"sample_value\":\"Florianópolis\",\"path\":[\"borrower\",\"address\",\"city\",\"name\"]},\"_p_borrower.address.state\":{\"ret_value\":\"text\",\"caption\":\"borrower address state\",\"sample_value\":\"SC\",\"path\":[\"borrower\",\"address\",\"state\"]},\"_p_borrower.status\":{\"ret_value\":\"text\",\"caption\":\"borrower status\",\"sample_value\":\"Active\",\"path\":[\"borrower\",\"status\"]},\"_p_borrower.type\":{\"ret_value\":\"text\",\"caption\":\"borrower type\",\"sample_value\":\"NaturalPerson\",\"path\":[\"borrower\",\"type\"]},\"_p_borrower.createdOn\":{\"ret_value\":\"date\",\"caption\":\"borrower createdOn\",\"sample_value\":\"2020-11-17T17:01:59.5008371+00:00\",\"path\":[\"borrower\",\"createdOn\"]},\"_p_batchNumber\":{\"ret_value\":\"text\",\"caption\":\"batchNumber\",\"sample_value\":22515352091459,\"path\":[\"batchNumber\"]},\"_p_batchCheckNumber\":{\"ret_value\":\"text\",\"caption\":\"batchCheckNumber\",\"sample_value\":\"222515352091459\",\"path\":[\"batchCheckNumber\"]},\"_p_number\":{\"ret_value\":\"number\",\"caption\":\"number\",\"sample_value\":2,\"path\":[\"number\"]},\"_p_checkCode\":{\"ret_value\":\"text\",\"caption\":\"checkCode\",\"sample_value\":\"222515352091459\",\"path\":[\"checkCode\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Issued\",\"path\":[\"status\"]},\"_p_rpsType\":{\"ret_value\":\"text\",\"caption\":\"rpsType\",\"sample_value\":\"Rps\",\"path\":[\"rpsType\"]},\"_p_rpsStatus\":{\"ret_value\":\"text\",\"caption\":\"rpsStatus\",\"sample_value\":\"Normal\",\"path\":[\"rpsStatus\"]},\"_p_taxationType\":{\"ret_value\":\"text\",\"caption\":\"taxationType\",\"sample_value\":\"WithinCity\",\"path\":[\"taxationType\"]},\"_p_issuedOn\":{\"ret_value\":\"date\",\"caption\":\"issuedOn\",\"sample_value\":\"2020-11-17T14:01:59.5008371-03:00\",\"path\":[\"issuedOn\"]},\"_p_rpsSerialNumber\":{\"ret_value\":\"text\",\"caption\":\"rpsSerialNumber\",\"sample_value\":\"IO\",\"path\":[\"rpsSerialNumber\"]},\"_p_rpsNumber\":{\"ret_value\":\"text\",\"caption\":\"rpsNumber\",\"sample_value\":2,\"path\":[\"rpsNumber\"]},\"_p_cityServiceCode\":{\"ret_value\":\"text\",\"caption\":\"cityServiceCode\",\"sample_value\":\"8.02\",\"path\":[\"cityServiceCode\"]},\"_p_federalServiceCode\":{\"ret_value\":\"text\",\"caption\":\"federalServiceCode\",\"sample_value\":\"8.02\",\"path\":[\"federalServiceCode\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Venda de Treinamento XYZ\\n\\n\\nCONFORME LEI 12.741/2012 o valor aproximado dos tributos é R$198,82 (16,23%), FONTE: IBPT/empresometro.com.br (20.1.B)\",\"path\":[\"description\"]},\"_p_servicesAmount\":{\"ret_value\":\"number\",\"caption\":\"servicesAmount\",\"sample_value\":1225,\"path\":[\"servicesAmount\"]},\"_p_deductionsAmount\":{\"ret_value\":\"number\",\"caption\":\"deductionsAmount\",\"sample_value\":0,\"path\":[\"deductionsAmount\"]},\"_p_discountUnconditionedAmount\":{\"ret_value\":\"number\",\"caption\":\"discountUnconditionedAmount\",\"sample_value\":0,\"path\":[\"discountUnconditionedAmount\"]},\"_p_discountConditionedAmount\":{\"ret_value\":\"number\",\"caption\":\"discountConditionedAmount\",\"sample_value\":0,\"path\":[\"discountConditionedAmount\"]},\"_p_baseTaxAmount\":{\"ret_value\":\"number\",\"caption\":\"baseTaxAmount\",\"sample_value\":1225,\"path\":[\"baseTaxAmount\"]},\"_p_issRate\":{\"ret_value\":\"number\",\"caption\":\"issRate\",\"sample_value\":0,\"path\":[\"issRate\"]},\"_p_issTaxAmount\":{\"ret_value\":\"number\",\"caption\":\"issTaxAmount\",\"sample_value\":0,\"path\":[\"issTaxAmount\"]},\"_p_irAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"irAmountWithheld\",\"sample_value\":0,\"path\":[\"irAmountWithheld\"]},\"_p_pisAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"pisAmountWithheld\",\"sample_value\":0,\"path\":[\"pisAmountWithheld\"]},\"_p_cofinsAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"cofinsAmountWithheld\",\"sample_value\":0,\"path\":[\"cofinsAmountWithheld\"]},\"_p_csllAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"csllAmountWithheld\",\"sample_value\":0,\"path\":[\"csllAmountWithheld\"]},\"_p_inssAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"inssAmountWithheld\",\"sample_value\":0,\"path\":[\"inssAmountWithheld\"]},\"_p_issAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"issAmountWithheld\",\"sample_value\":0,\"path\":[\"issAmountWithheld\"]},\"_p_othersAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"othersAmountWithheld\",\"sample_value\":0,\"path\":[\"othersAmountWithheld\"]},\"_p_amountWithheld\":{\"ret_value\":\"number\",\"caption\":\"amountWithheld\",\"sample_value\":0,\"path\":[\"amountWithheld\"]},\"_p_amountNet\":{\"ret_value\":\"number\",\"caption\":\"amountNet\",\"sample_value\":1225,\"path\":[\"amountNet\"]},\"_p_approximateTax.source\":{\"ret_value\":\"text\",\"caption\":\"approximateTax source\",\"sample_value\":\"IBPT/empresometro.com.br\",\"path\":[\"approximateTax\",\"source\"]},\"_p_approximateTax.version\":{\"ret_value\":\"text\",\"caption\":\"approximateTax version\",\"sample_value\":\"20.1.B\",\"path\":[\"approximateTax\",\"version\"]},\"_p_approximateTax.totalRate\":{\"ret_value\":\"number\",\"caption\":\"approximateTax totalRate\",\"sample_value\":0.1623,\"path\":[\"approximateTax\",\"totalRate\"]},\"_p_createdOn\":{\"ret_value\":\"date\",\"caption\":\"createdOn\",\"sample_value\":\"2020-11-17T17:01:59.5008371+00:00\",\"path\":[\"createdOn\"]},\"_p_modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"modifiedOn\",\"sample_value\":\"2020-11-17T17:02:37.2272254+00:00\",\"path\":[\"modifiedOn\"]},\"_p_flowMessage\":{\"ret_value\":\"text\",\"caption\":\"flowMessage\",\"sample_value\":\"max retry reached on set calculate taxes stage last error was 'city service code '10.01' was not found for city code '4216602' for calculate taxes'\",\"path\":[\"flowMessage\"]},\"_p_borrower.address.additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"borrower address additionalInformation\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"additionalInformation\"]}}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]/serviceinvoices",
+            "url_params": {
+                "AgW": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "private": true,
+                    "value": "5fb3edcef408510d10d37d45"
+                }
+            }
+        },
+        "AcV": {
+            "body": "{\n  \"borrower\": {\n    \"type\": \"<type>\",\n    \"name\": \"<name>\",\n    \"federalTaxNumber\": <federaltaxnumber>,\n    \"municipalTaxNumber\": \"<municipaltaxnumber>\",\n    \"email\": \"<email>\",\n    \"address\": {\n      \"country\": \"BRA\",\n      \"postalCode\": \"<postalcode>\",\n      \"street\": \"<street>\",\n      \"number\": \"<number>\",\n      \"additionalInformation\": \"<additionalinformation>\",\n      \"district\": \"<district>\",\n      \"city\": {\n        \"code\": \"<cityCode>\",\n        \"name\": \"<cityName>\"\n      },\n      \"state\": \"<state>\"\n    }\n  },\n  \"cityServiceCode\": \"<cityservicecode>\",\n  \"federalServiceCode\": \"<federalServiceCode>\",\n  \"cnaeCode\": \"<cnaeCode>\",\n  \"description\": \"<description>\",\n  \"servicesAmount\": <amount>,\n  \"rpsSerialNumber\": \"<rpsSerialNumber>\",\n  \"rpsNumber\": <rpsNumber>,\n  \"taxationType\": \"<taxationType>\",\n  \"issRate\": <issRate>,\n  \"issTaxAmount\": <issTaxAmount>,\n  \"deductionsAmount\": <deductionsAmount>,\n  \"discountUnconditionedAmount\": <discountUnconditionedAmount>,\n  \"discountConditionedAmount\": <discountConditionedAmount>,\n  \"irAmountWithheld\": <irAmountWithheld>,\n  \"pisAmountWithheld\": <pisAmountWithheld>,\n  \"cofinsAmountWithheld\": <cofinsAmountWithheld>,\n  \"csllAmountWithheld\": <csllAmountWithheld>,\n  \"inssAmountWithheld\": <inssAmountWithheld>,\n  \"issAmountWithheld\": <issAmountWithheld>,\n  \"othersAmountWithheld\": <othersAmountWithheld>,\n  \"approximateTax\": {\n    \"source\": \"<approximateTax(source)>\",\n    \"version\": \"<approximateTax(version)>\",\n    \"totalRate\": <approximateTax(totalRate)>\n  },\n  \"additionalInformation\": \"<additionalInformation>\",\n  \"location\": {\n    \"state\": \"<locationState>\",\n    \"city\": {\n      \"code\": \"<locationCityCode>\",\n      \"name\": \"<locationCityName>\"\n    }\n  }\n}",
+            "body_params": {
+                "AjH": {
+                    "allow_blank": true,
+                    "doc": "Tipo do tomador dos serviços\n\nOpções:\nNaturalPerson (para Pessoa Física)\nLegalEntity (para Pessoa Jurídica)",
+                    "key": "type",
+                    "private": true,
+                    "value": "NaturalPerson"
+                },
+                "AjJ": {
+                    "allow_blank": true,
+                    "doc": "CNPJ ou CPF",
+                    "key": "federaltaxnumber",
+                    "private": true,
+                    "value": "79625094067"
+                },
+                "AjK": {
+                    "allow_blank": true,
+                    "doc": "Inscrição Municipal para Pessoas Jurídicas",
+                    "key": "municipaltaxnumber",
+                    "private": true,
+                    "value": ""
+                },
+                "AjL": {
+                    "allow_blank": true,
+                    "doc": "Email",
+                    "key": "email",
+                    "private": true,
+                    "value": "renato@semcodar.com.br"
+                },
+                "AjM": {
+                    "allow_blank": true,
+                    "doc": "CEP (Exemplo: 99999-999)",
+                    "key": "postalcode",
+                    "private": true,
+                    "value": "88117-000"
+                },
+                "AjN": {
+                    "allow_blank": true,
+                    "doc": "Logradouro",
+                    "key": "street",
+                    "private": true,
+                    "value": "Av Beira Mar"
+                },
+                "AjO": {
+                    "allow_blank": true,
+                    "doc": "Número (Exemplo: 185 ou S/N)",
+                    "key": "number",
+                    "private": true,
+                    "value": "3000"
+                },
+                "AjP": {
+                    "allow_blank": true,
+                    "doc": "Complemento (Exemplo: BLC A; APT 10",
+                    "key": "additionalinformation",
+                    "private": true,
+                    "value": "Complemento"
+                },
+                "AjQ": {
+                    "allow_blank": true,
+                    "doc": "Bairro",
+                    "key": "district",
+                    "private": true,
+                    "value": "Centro"
+                },
+                "Aja": {
+                    "allow_blank": true,
+                    "doc": "Nome / Razão Social do Tomador dos Serviços",
+                    "key": "name",
+                    "private": true,
+                    "value": "João Silva"
+                },
+                "Ajb": {
+                    "allow_blank": true,
+                    "doc": "Endereço do tomador do serviço\nEstado",
+                    "key": "state",
+                    "private": true,
+                    "value": "SC"
+                },
+                "Ajc": {
+                    "allow_blank": true,
+                    "doc": "Código do serviço no municipio",
+                    "key": "cityservicecode",
+                    "private": true,
+                    "value": "8.02"
+                },
+                "Ajd": {
+                    "allow_blank": true,
+                    "doc": "Código federal do servico (Item da lista de serviço LC 116)",
+                    "key": "federalServiceCode",
+                    "private": true,
+                    "value": "8.02"
+                },
+                "Aje": {
+                    "allow_blank": true,
+                    "doc": "Código CNAE (somente quando necessario na cidade)",
+                    "key": "cnaeCode",
+                    "private": true,
+                    "value": "8599604"
+                },
+                "Ajf": {
+                    "allow_blank": true,
+                    "doc": "Descrição dos serviços",
+                    "key": "description",
+                    "private": true,
+                    "value": "Descrição do Serviço"
+                },
+                "Ajg": {
+                    "allow_blank": true,
+                    "doc": "Valor do serviços",
+                    "key": "amount",
+                    "private": true,
+                    "value": "149"
+                },
+                "Ajh": {
+                    "allow_blank": true,
+                    "doc": "Número de Serie da RPS",
+                    "key": "rpsSerialNumber",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajj": {
+                    "allow_blank": true,
+                    "doc": "Número da RPS.",
+                    "key": "rpsNumber",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajk": {
+                    "allow_blank": true,
+                    "doc": "Número da RPS \n[ None, WithinCity, OutsideCity, Export, Free, Immune, SuspendedCourtDecision, SuspendedAdministrativeProcedure, OutsideCityFree, OutsideCityImmune, OutsideCitySuspended, OutsideCitySuspendedAdministrativeProcedure ]",
+                    "key": "taxationType",
+                    "private": true,
+                    "value": "OutsideCity"
+                },
+                "Ajl": {
+                    "allow_blank": true,
+                    "doc": "Aliquota do ISS",
+                    "key": "issRate",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajm": {
+                    "allow_blank": true,
+                    "doc": "Valor do ISS",
+                    "key": "issTaxAmount",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajn": {
+                    "allow_blank": true,
+                    "doc": "Valor de deduções",
+                    "key": "deductionsAmount",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajo": {
+                    "allow_blank": true,
+                    "doc": "Valor do desconto incondicionado",
+                    "key": "discountUnconditionedAmount",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajp": {
+                    "allow_blank": true,
+                    "doc": "Valor do desconto condicionado",
+                    "key": "discountConditionedAmount",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajq": {
+                    "allow_blank": true,
+                    "doc": "Valor retido do Imposto de Renda (IR)",
+                    "key": "irAmountWithheld",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajr": {
+                    "allow_blank": true,
+                    "doc": "Valor retido do PIS",
+                    "key": "pisAmountWithheld",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajs": {
+                    "allow_blank": true,
+                    "doc": "Valor retido do COFINS",
+                    "key": "cofinsAmountWithheld",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajt": {
+                    "allow_blank": true,
+                    "doc": "Valor retido do CSLL",
+                    "key": "csllAmountWithheld",
+                    "private": true,
+                    "value": ""
+                },
+                "Aju": {
+                    "allow_blank": true,
+                    "doc": "Valor retido do INSS",
+                    "key": "inssAmountWithheld",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajv": {
+                    "allow_blank": true,
+                    "doc": "Valor retido do ISS",
+                    "key": "issAmountWithheld",
+                    "private": true,
+                    "value": ""
+                },
+                "Ajw": {
+                    "allow_blank": true,
+                    "doc": "Valor de outras retenções",
+                    "key": "othersAmountWithheld",
+                    "private": true,
+                    "value": ""
+                },
+                "Akq": {
+                    "allow_blank": true,
+                    "doc": "Nome da fonte da taxa",
+                    "key": "approximateTax(source)",
+                    "private": true,
+                    "value": ""
+                },
+                "Akr": {
+                    "allow_blank": true,
+                    "doc": "Versão da taxa baseado na fonte",
+                    "key": "approximateTax(version)",
+                    "private": true,
+                    "value": ""
+                },
+                "Aku": {
+                    "allow_blank": true,
+                    "doc": "Informações Adicionais",
+                    "key": "additionalInformation",
+                    "private": true,
+                    "value": ""
+                },
+                "Aky": {
+                    "allow_blank": true,
+                    "doc": "Taxa dos tributos aproximados",
+                    "key": "approximateTax(totalRate)",
+                    "private": true,
+                    "value": ""
+                },
+                "AlX": {
+                    "allow_blank": true,
+                    "doc": "Endereço do tomador do serviço\nNome da Cidade",
+                    "key": "cityName",
+                    "private": true,
+                    "value": "Florianópolis"
+                },
+                "AlZ": {
+                    "allow_blank": true,
+                    "doc": "Endereço do tomador do serviço\nCódigo do IBGE da Cidade",
+                    "key": "cityCode",
+                    "private": true,
+                    "value": "4205407"
+                },
+                "Aly": {
+                    "allow_blank": true,
+                    "doc": "Endereço de prestação do serviço\nEstado",
+                    "key": "locationState",
+                    "private": true,
+                    "value": "SC"
+                },
+                "Alz": {
+                    "allow_blank": true,
+                    "doc": "Endereço de prestação do serviço\nCódigo do IBGE da Cidade\n",
+                    "key": "locationCityCode",
+                    "private": true,
+                    "value": "4205407"
+                },
+                "AmA": {
+                    "allow_blank": true,
+                    "doc": "Endereço de prestação do serviço\nNome da Cidade",
+                    "key": "locationCityName",
+                    "private": true,
+                    "value": "Florianópolis"
+                }
+            },
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/ServiceInvoices/ServiceInvoices_Post",
+            "get_headers": false,
+            "headers": {
+                "AcW": {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "visibility": "hidden"
+                },
+                "AcX": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "fs1k4veXc1DMf08BdTb9K3Jda3MTVq5AUpWvGu9E9q54ZCub1fd3r4zoW3sTqazyKqt"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "📄 Emitir NFSe",
+            "publish_as": "action",
+            "rank": 7,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.AcV",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AcV\":{\"caption\":\"📄 Emitir NFSe\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"string\",\"path\":[\"id\"]},\"_p_environment\":{\"ret_value\":\"text\",\"caption\":\"environment\",\"sample_value\":\"Development\",\"path\":[\"environment\"]},\"_p_flowStatus\":{\"ret_value\":\"text\",\"caption\":\"flowStatus\",\"sample_value\":\"CancelFailed\",\"path\":[\"flowStatus\"]},\"_p_flowMessage\":{\"ret_value\":\"text\",\"caption\":\"flowMessage\",\"sample_value\":\"string\",\"path\":[\"flowMessage\"]},\"_p_provider.tradeName\":{\"ret_value\":\"text\",\"caption\":\"provider tradeName\",\"sample_value\":\"string\",\"path\":[\"provider\",\"tradeName\"]},\"_p_provider.openningDate\":{\"ret_value\":\"date\",\"caption\":\"provider openningDate\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"provider\",\"openningDate\"]},\"_p_provider.taxRegime\":{\"ret_value\":\"text\",\"caption\":\"provider taxRegime\",\"sample_value\":\"Isento\",\"path\":[\"provider\",\"taxRegime\"]},\"_p_provider.specialTaxRegime\":{\"ret_value\":\"text\",\"caption\":\"provider specialTaxRegime\",\"sample_value\":\"Automatico\",\"path\":[\"provider\",\"specialTaxRegime\"]},\"_p_provider.legalNature\":{\"ret_value\":\"text\",\"caption\":\"provider legalNature\",\"sample_value\":\"EmpresaPublica\",\"path\":[\"provider\",\"legalNature\"]},\"_p_provider.economicActivities\":{\"ret_value\":\"list.api.1606080141691x984684519179157500.plugin_api.AcV.provider.economicActivities\",\"caption\":\"provider economicActivities\",\"path\":[\"provider\",\"economicActivities\"]},\"_p_provider.companyRegistryNumber\":{\"ret_value\":\"text\",\"caption\":\"provider companyRegistryNumber\",\"sample_value\":0,\"path\":[\"provider\",\"companyRegistryNumber\"]},\"_p_provider.regionalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"provider regionalTaxNumber\",\"sample_value\":0,\"path\":[\"provider\",\"regionalTaxNumber\"]},\"_p_provider.municipalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"provider municipalTaxNumber\",\"sample_value\":\"string\",\"path\":[\"provider\",\"municipalTaxNumber\"]},\"_p_provider.issRate\":{\"ret_value\":\"number\",\"caption\":\"provider issRate\",\"sample_value\":0,\"path\":[\"provider\",\"issRate\"]},\"_p_provider.parentId\":{\"ret_value\":\"text\",\"caption\":\"provider parentId\",\"sample_value\":\"string\",\"path\":[\"provider\",\"parentId\"]},\"_p_provider.id\":{\"ret_value\":\"text\",\"caption\":\"provider id\",\"sample_value\":\"string\",\"path\":[\"provider\",\"id\"]},\"_p_provider.name\":{\"ret_value\":\"text\",\"caption\":\"provider name\",\"sample_value\":\"string\",\"path\":[\"provider\",\"name\"]},\"_p_provider.federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"provider federalTaxNumber\",\"sample_value\":0,\"path\":[\"provider\",\"federalTaxNumber\"]},\"_p_provider.email\":{\"ret_value\":\"text\",\"caption\":\"provider email\",\"sample_value\":\"string\",\"path\":[\"provider\",\"email\"]},\"_p_provider.address.country\":{\"ret_value\":\"text\",\"caption\":\"provider address country\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"country\"]},\"_p_provider.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"provider address postalCode\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"postalCode\"]},\"_p_provider.address.street\":{\"ret_value\":\"text\",\"caption\":\"provider address street\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"street\"]},\"_p_provider.address.number\":{\"ret_value\":\"text\",\"caption\":\"provider address number\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"number\"]},\"_p_provider.address.additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"provider address additionalInformation\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"additionalInformation\"]},\"_p_provider.address.district\":{\"ret_value\":\"text\",\"caption\":\"provider address district\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"district\"]},\"_p_provider.address.city.code\":{\"ret_value\":\"text\",\"caption\":\"provider address city code\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"city\",\"code\"]},\"_p_provider.address.city.name\":{\"ret_value\":\"text\",\"caption\":\"provider address city name\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"city\",\"name\"]},\"_p_provider.address.state\":{\"ret_value\":\"text\",\"caption\":\"provider address state\",\"sample_value\":\"string\",\"path\":[\"provider\",\"address\",\"state\"]},\"_p_provider.status\":{\"ret_value\":\"text\",\"caption\":\"provider status\",\"sample_value\":\"Inactive\",\"path\":[\"provider\",\"status\"]},\"_p_provider.type\":{\"ret_value\":\"text\",\"caption\":\"provider type\",\"sample_value\":\"Undefined\",\"path\":[\"provider\",\"type\"]},\"_p_provider.createdOn\":{\"ret_value\":\"date\",\"caption\":\"provider createdOn\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"provider\",\"createdOn\"]},\"_p_provider.modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"provider modifiedOn\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"provider\",\"modifiedOn\"]},\"_p_borrower.parentId\":{\"ret_value\":\"text\",\"caption\":\"borrower parentId\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"parentId\"]},\"_p_borrower.id\":{\"ret_value\":\"text\",\"caption\":\"borrower id\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"id\"]},\"_p_borrower.name\":{\"ret_value\":\"text\",\"caption\":\"borrower name\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"name\"]},\"_p_borrower.federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"borrower federalTaxNumber\",\"sample_value\":0,\"path\":[\"borrower\",\"federalTaxNumber\"]},\"_p_borrower.email\":{\"ret_value\":\"text\",\"caption\":\"borrower email\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"email\"]},\"_p_borrower.address.country\":{\"ret_value\":\"text\",\"caption\":\"borrower address country\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"country\"]},\"_p_borrower.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"borrower address postalCode\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"postalCode\"]},\"_p_borrower.address.street\":{\"ret_value\":\"text\",\"caption\":\"borrower address street\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"street\"]},\"_p_borrower.address.number\":{\"ret_value\":\"text\",\"caption\":\"borrower address number\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"number\"]},\"_p_borrower.address.additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"borrower address additionalInformation\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"additionalInformation\"]},\"_p_borrower.address.district\":{\"ret_value\":\"text\",\"caption\":\"borrower address district\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"district\"]},\"_p_borrower.address.city.code\":{\"ret_value\":\"text\",\"caption\":\"borrower address city code\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"city\",\"code\"]},\"_p_borrower.address.city.name\":{\"ret_value\":\"text\",\"caption\":\"borrower address city name\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"city\",\"name\"]},\"_p_borrower.address.state\":{\"ret_value\":\"text\",\"caption\":\"borrower address state\",\"sample_value\":\"string\",\"path\":[\"borrower\",\"address\",\"state\"]},\"_p_borrower.status\":{\"ret_value\":\"text\",\"caption\":\"borrower status\",\"sample_value\":\"Inactive\",\"path\":[\"borrower\",\"status\"]},\"_p_borrower.type\":{\"ret_value\":\"text\",\"caption\":\"borrower type\",\"sample_value\":\"Undefined\",\"path\":[\"borrower\",\"type\"]},\"_p_borrower.createdOn\":{\"ret_value\":\"date\",\"caption\":\"borrower createdOn\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"borrower\",\"createdOn\"]},\"_p_borrower.modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"borrower modifiedOn\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"borrower\",\"modifiedOn\"]},\"_p_batchNumber\":{\"ret_value\":\"text\",\"caption\":\"batchNumber\",\"sample_value\":0,\"path\":[\"batchNumber\"]},\"_p_batchCheckNumber\":{\"ret_value\":\"text\",\"caption\":\"batchCheckNumber\",\"sample_value\":\"string\",\"path\":[\"batchCheckNumber\"]},\"_p_number\":{\"ret_value\":\"number\",\"caption\":\"number\",\"sample_value\":0,\"path\":[\"number\"]},\"_p_checkCode\":{\"ret_value\":\"text\",\"caption\":\"checkCode\",\"sample_value\":\"string\",\"path\":[\"checkCode\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Error\",\"path\":[\"status\"]},\"_p_rpsType\":{\"ret_value\":\"text\",\"caption\":\"rpsType\",\"sample_value\":\"Rps\",\"path\":[\"rpsType\"]},\"_p_rpsStatus\":{\"ret_value\":\"text\",\"caption\":\"rpsStatus\",\"sample_value\":\"Normal\",\"path\":[\"rpsStatus\"]},\"_p_taxationType\":{\"ret_value\":\"text\",\"caption\":\"taxationType\",\"sample_value\":\"None\",\"path\":[\"taxationType\"]},\"_p_issuedOn\":{\"ret_value\":\"date\",\"caption\":\"issuedOn\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"issuedOn\"]},\"_p_cancelledOn\":{\"ret_value\":\"date\",\"caption\":\"cancelledOn\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"cancelledOn\"]},\"_p_rpsSerialNumber\":{\"ret_value\":\"text\",\"caption\":\"rpsSerialNumber\",\"sample_value\":\"string\",\"path\":[\"rpsSerialNumber\"]},\"_p_rpsNumber\":{\"ret_value\":\"number\",\"caption\":\"rpsNumber\",\"sample_value\":0,\"path\":[\"rpsNumber\"]},\"_p_cityServiceCode\":{\"ret_value\":\"text\",\"caption\":\"cityServiceCode\",\"sample_value\":\"string\",\"path\":[\"cityServiceCode\"]},\"_p_federalServiceCode\":{\"ret_value\":\"text\",\"caption\":\"federalServiceCode\",\"sample_value\":\"string\",\"path\":[\"federalServiceCode\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"string\",\"path\":[\"description\"]},\"_p_servicesAmount\":{\"ret_value\":\"number\",\"caption\":\"servicesAmount\",\"sample_value\":0,\"path\":[\"servicesAmount\"]},\"_p_deductionsAmount\":{\"ret_value\":\"number\",\"caption\":\"deductionsAmount\",\"sample_value\":0,\"path\":[\"deductionsAmount\"]},\"_p_discountUnconditionedAmount\":{\"ret_value\":\"number\",\"caption\":\"discountUnconditionedAmount\",\"sample_value\":0,\"path\":[\"discountUnconditionedAmount\"]},\"_p_discountConditionedAmount\":{\"ret_value\":\"number\",\"caption\":\"discountConditionedAmount\",\"sample_value\":0,\"path\":[\"discountConditionedAmount\"]},\"_p_baseTaxAmount\":{\"ret_value\":\"number\",\"caption\":\"baseTaxAmount\",\"sample_value\":0,\"path\":[\"baseTaxAmount\"]},\"_p_issRate\":{\"ret_value\":\"number\",\"caption\":\"issRate\",\"sample_value\":0,\"path\":[\"issRate\"]},\"_p_issTaxAmount\":{\"ret_value\":\"number\",\"caption\":\"issTaxAmount\",\"sample_value\":0,\"path\":[\"issTaxAmount\"]},\"_p_irAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"irAmountWithheld\",\"sample_value\":0,\"path\":[\"irAmountWithheld\"]},\"_p_pisAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"pisAmountWithheld\",\"sample_value\":0,\"path\":[\"pisAmountWithheld\"]},\"_p_cofinsAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"cofinsAmountWithheld\",\"sample_value\":0,\"path\":[\"cofinsAmountWithheld\"]},\"_p_csllAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"csllAmountWithheld\",\"sample_value\":0,\"path\":[\"csllAmountWithheld\"]},\"_p_inssAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"inssAmountWithheld\",\"sample_value\":0,\"path\":[\"inssAmountWithheld\"]},\"_p_issAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"issAmountWithheld\",\"sample_value\":0,\"path\":[\"issAmountWithheld\"]},\"_p_othersAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"othersAmountWithheld\",\"sample_value\":0,\"path\":[\"othersAmountWithheld\"]},\"_p_amountWithheld\":{\"ret_value\":\"number\",\"caption\":\"amountWithheld\",\"sample_value\":0,\"path\":[\"amountWithheld\"]},\"_p_amountNet\":{\"ret_value\":\"number\",\"caption\":\"amountNet\",\"sample_value\":0,\"path\":[\"amountNet\"]},\"_p_location.state\":{\"ret_value\":\"text\",\"caption\":\"location state\",\"sample_value\":\"string\",\"path\":[\"location\",\"state\"]},\"_p_location.city.code\":{\"ret_value\":\"text\",\"caption\":\"location city code\",\"sample_value\":\"string\",\"path\":[\"location\",\"city\",\"code\"]},\"_p_location.city.name\":{\"ret_value\":\"text\",\"caption\":\"location city name\",\"sample_value\":\"string\",\"path\":[\"location\",\"city\",\"name\"]},\"_p_approximateTax.source\":{\"ret_value\":\"text\",\"caption\":\"approximateTax source\",\"sample_value\":\"string\",\"path\":[\"approximateTax\",\"source\"]},\"_p_approximateTax.version\":{\"ret_value\":\"text\",\"caption\":\"approximateTax version\",\"sample_value\":\"string\",\"path\":[\"approximateTax\",\"version\"]},\"_p_approximateTax.totalRate\":{\"ret_value\":\"number\",\"caption\":\"approximateTax totalRate\",\"sample_value\":0,\"path\":[\"approximateTax\",\"totalRate\"]},\"_p_additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"additionalInformation\",\"sample_value\":\"string\",\"path\":[\"additionalInformation\"]},\"_p_createdOn\":{\"ret_value\":\"date\",\"caption\":\"createdOn\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"createdOn\"]},\"_p_modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"modifiedOn\",\"sample_value\":\"2021-06-07T18:37:22.433Z\",\"path\":[\"modifiedOn\"]}}},\"plugin_api.AcV.provider.economicActivities\":{\"caption\":\"📄 Emitir NFSe provider economicActivitie\",\"fields\":{\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"Main\",\"path\":[\"type\"]},\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"sample_value\":0,\"path\":[\"code\"]}}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]/serviceinvoices",
+            "url_params": {
+                "AcY": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "value": "5fd7b9bc4f2a9c0b74ec5b44"
+                }
+            }
+        },
+        "Adp": {
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/Companies/Companies_Get",
+            "headers": {
+                "Adq": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "AhZ": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "🏭 Listar Empresas NFSe",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.Adp",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.Adp\":{\"caption\":\"🏭 Listar Empresas NFSe\",\"fields\":{\"_p_companies\":{\"ret_value\":\"list.api.1606080141691x984684519179157500.plugin_api.Adp.companies\",\"caption\":\"companies\",\"path\":[\"companies\"]},\"_p_totalResults\":{\"ret_value\":\"number\",\"caption\":\"totalResults\",\"sample_value\":3,\"path\":[\"totalResults\"]},\"_p_totalPages\":{\"ret_value\":\"number\",\"caption\":\"totalPages\",\"sample_value\":1,\"path\":[\"totalPages\"]},\"_p_page\":{\"ret_value\":\"number\",\"caption\":\"page\",\"sample_value\":1,\"path\":[\"page\"]}}},\"plugin_api.Adp.companies\":{\"caption\":\"🏭 Listar Empresas NFSe companie\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"5fb3edcef408510d10d37d45\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"ASSE MARKETING E MIDIAS LTDA\",\"path\":[\"name\"]},\"_p_tradeName\":{\"ret_value\":\"text\",\"caption\":\"tradeName\",\"sample_value\":\"ASSE MARKETING\",\"path\":[\"tradeName\"]},\"_p_federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"federalTaxNumber\",\"sample_value\":36574385000148,\"path\":[\"federalTaxNumber\"]},\"_p_address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"address postalCode\",\"sample_value\":\"88117-000\",\"path\":[\"address\",\"postalCode\"]},\"_p_address.street\":{\"ret_value\":\"text\",\"caption\":\"address street\",\"sample_value\":\"Avenida Leoberto Leal\",\"path\":[\"address\",\"street\"]},\"_p_address.number\":{\"ret_value\":\"text\",\"caption\":\"address number\",\"sample_value\":\"790\",\"path\":[\"address\",\"number\"]},\"_p_address.additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"address additionalInformation\",\"sample_value\":\"\",\"path\":[\"address\",\"additionalInformation\"]},\"_p_address.district\":{\"ret_value\":\"text\",\"caption\":\"address district\",\"sample_value\":\"Barreiros\",\"path\":[\"address\",\"district\"]},\"_p_address.city.code\":{\"ret_value\":\"text\",\"caption\":\"address city code\",\"sample_value\":\"4216602\",\"path\":[\"address\",\"city\",\"code\"]},\"_p_address.city.name\":{\"ret_value\":\"text\",\"caption\":\"address city name\",\"sample_value\":\"São José\",\"path\":[\"address\",\"city\",\"name\"]},\"_p_address.state\":{\"ret_value\":\"text\",\"caption\":\"address state\",\"sample_value\":\"SC\",\"path\":[\"address\",\"state\"]},\"_p_taxRegime\":{\"ret_value\":\"text\",\"caption\":\"taxRegime\",\"sample_value\":\"SimplesNacional\",\"path\":[\"taxRegime\"]},\"_p_specialTaxRegime\":{\"ret_value\":\"text\",\"caption\":\"specialTaxRegime\",\"sample_value\":\"Nenhum\",\"path\":[\"specialTaxRegime\"]},\"_p_legalNature\":{\"ret_value\":\"text\",\"caption\":\"legalNature\",\"sample_value\":\"SociedadeEmpresariaLimitada\",\"path\":[\"legalNature\"]},\"_p_rpsSerialNumber\":{\"ret_value\":\"text\",\"caption\":\"rpsSerialNumber\",\"sample_value\":\"IO\",\"path\":[\"rpsSerialNumber\"]},\"_p_rpsNumber\":{\"ret_value\":\"text\",\"caption\":\"rpsNumber\",\"sample_value\":3,\"path\":[\"rpsNumber\"]},\"_p_issRate\":{\"ret_value\":\"number\",\"caption\":\"issRate\",\"sample_value\":0,\"path\":[\"issRate\"]},\"_p_environment\":{\"ret_value\":\"text\",\"caption\":\"environment\",\"sample_value\":\"Development\",\"path\":[\"environment\"]},\"_p_fiscalStatus\":{\"ret_value\":\"text\",\"caption\":\"fiscalStatus\",\"sample_value\":\"Pending\",\"path\":[\"fiscalStatus\"]},\"_p_certificate.status\":{\"ret_value\":\"text\",\"caption\":\"certificate status\",\"sample_value\":\"Pending\",\"path\":[\"certificate\",\"status\"]},\"_p_createdOn\":{\"ret_value\":\"date\",\"caption\":\"createdOn\",\"sample_value\":\"2020-11-17T15:35:42.4433544+00:00\",\"path\":[\"createdOn\"]},\"_p_modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"modifiedOn\",\"sample_value\":\"2020-11-17T15:35:42.6347462+00:00\",\"path\":[\"modifiedOn\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"renato@semcodar.com.br\",\"path\":[\"email\"]},\"_p_address.country\":{\"ret_value\":\"text\",\"caption\":\"address country\",\"sample_value\":\"BRA\",\"path\":[\"address\",\"country\"]},\"_p_openningDate\":{\"ret_value\":\"date\",\"caption\":\"openningDate\",\"sample_value\":\"2020-03-01T14:56:43.035+00:00\",\"path\":[\"openningDate\"]}}}}",
+            "url": "https://api.nfe.io/v1/companies"
+        },
+        "Adr": {
+            "body": "{\n  \"name\": \"<name>\",\n  \"tradeName\": \"<tradeName>\",\n  \"federalTaxNumber\": <federalTaxNumber>,\n  \"email\": \"<email>\",\n  \"address\": {\n    \"country\": \"<country>\",\n    \"postalCode\": \"<postalCode>\",\n    \"street\": \"<street>\",\n    \"number\": \"<number>\",\n    \"additionalInformation\": \"<additionalInformation>\",\n    \"district\": \"<district>\",\n    \"city\": {\n      \"code\": \"<cityCode>\",\n      \"name\": \"<cityName>\"\n    },\n    \"state\": \"<state>\"\n  },\n  \"taxRegime\": \"<taxRegime>\",\n  \"specialTaxRegime\": \"<specialTaxRegime>\",\n  \"legalNature\": \"<legalNature>\",\n  \"regionalTaxNumber\": <regionalTaxNumber>,\n  \"municipalTaxNumber\": \"<municipalTaxNumber>\"\n}",
+            "body_params": {
+                "Adu": {
+                    "doc": "Razão Social\n\n",
+                    "key": "name",
+                    "value": "Wayne Enterprises Inc"
+                },
+                "Adv": {
+                    "doc": "Número de Inscrição Federal (CNPJ)\n\n",
+                    "key": "federalTaxNumber",
+                    "value": "34785515000166"
+                },
+                "Adw": {
+                    "doc": "Cód. Endereço Postal (CEP) - Exemplo: 88015-710\n",
+                    "key": "postalCode",
+                    "value": "88015-710"
+                },
+                "Adx": {
+                    "doc": "Logradouro do Endereço\n\n",
+                    "key": "street",
+                    "value": "Av Beira Mar"
+                },
+                "Ady": {
+                    "doc": "Número do Endereço. Usar S/N para \"sem número\".\n\n",
+                    "key": "number",
+                    "value": "300"
+                },
+                "Adz": {
+                    "doc": "Bairro do Endereço\n\n",
+                    "key": "district",
+                    "value": "Centro"
+                },
+                "AeB": {
+                    "doc": "Nome do Município\n\n",
+                    "key": "cityName",
+                    "value": "Florianopolis"
+                },
+                "AeC": {
+                    "doc": "Estado, ex.: SP, RJ, AC, padrão ISO 3166-2 ALFA 2.\n\n",
+                    "key": "state",
+                    "value": "SC"
+                },
+                "AeD": {
+                    "doc": "Nome Fantasia\n\n",
+                    "key": "tradeName",
+                    "value": "Wayne Enterprises Inc"
+                },
+                "AeE": {
+                    "doc": "Tipo do Regime Tributário\n\nIsento\nMicroempreendedorIndividual\nSimplesNacional\nLucroPresumido\nLucroReal",
+                    "key": "taxRegime",
+                    "value": "SimplesNacional"
+                },
+                "Aea": {
+                    "doc": "Complemento do Endereço, ex.: AP 2, BL A.\n\n",
+                    "key": "additionalInformation",
+                    "private": true,
+                    "value": "-"
+                },
+                "Alm": {
+                    "doc": "Email da empresa",
+                    "key": "email",
+                    "private": true,
+                    "value": "renato@semcodar.com.br"
+                },
+                "Aln": {
+                    "doc": "Sigla do País (padrão ISO 3166-1 mais em http://bit.ly/1OgCkxd)\nExemplo: BRA, USD, ARG",
+                    "key": "country",
+                    "private": true,
+                    "value": "BRA"
+                },
+                "Alo": {
+                    "doc": "Tipo do regime especial de tributação\n\nAutomatico\nNenhum\nMicroempresaMunicipal,\nEstimativa\nSociedadeDeProfissionais\nCooperativa\nMicroempreendedorIndividual\nMicroempresarioEmpresaPequenoPorte",
+                    "key": "specialTaxRegime",
+                    "private": true,
+                    "value": "Automatico"
+                },
+                "Alp": {
+                    "doc": "Código da Natureza Jurídica\n\nEmpresaPublica\nSociedadeEconomiaMista\nSociedadeAnonimaAberta\nSociedadeAnonimaFechada\nSociedadeEmpresariaLimitada\nSociedadeEmpresariaEmNomeColetivo\nSociedadeEmpresariaEmComanditaSimples\nSociedadeEmpresariaEmComanditaporAcoes\nSociedadeemContaParticipacao\nEmpresario\nCooperativa\nConsorcioSociedades\nGrupoSociedades\nEmpresaDomiciliadaExterior\nClubeFundoInvestimento\nSociedadeSimplesPura\nSociedadeSimplesLimitada\nSociedadeSimplesEmNomeColetivo\nSociedadeSimplesEmComanditaSimples\nEmpresaBinacional\nConsorcioEmpregadores\nConsorcioSimples\nEireliNaturezaEmpresaria\nEireliNaturezaSimples\nServicoNotarial\nFundacaoPrivada\nServicoSocialAutonomo\nCondominioEdilicio\nComissaoConciliacaoPrevia\nEntidadeMediacaoArbitragem\nPartidoPolitico\nEntidadeSindical\nEstabelecimentoBrasilFundacaoAssociacaoEstrangeiras\nFundacaoAssociacaoDomiciliadaExterior\nOrganizacaoReligiosa\nComunidadeIndigena\nFundoPrivado\nAssociacaoPrivada\n",
+                    "key": "legalNature",
+                    "private": true,
+                    "value": "EireliNaturezaSimples"
+                },
+                "Alq": {
+                    "doc": "Inscrição Estadual",
+                    "key": "regionalTaxNumber",
+                    "private": true,
+                    "value": ""
+                },
+                "Alr": {
+                    "doc": "Inscrição Municipal",
+                    "key": "municipalTaxNumber",
+                    "private": true,
+                    "value": "123456"
+                },
+                "Als": {
+                    "doc": "Código da cidade no IBGE",
+                    "key": "cityCode",
+                    "private": true,
+                    "value": "4205407"
+                }
+            },
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/Companies/Companies_Post",
+            "headers": {
+                "Ads": {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "visibility": "hidden"
+                },
+                "Adt": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "fs1k4veXc1DMf08BdTb9K3Jda3MTVq5AUpWvGu9E9q54ZCub1fd3r4zoW3sTqazyKqt"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "🏭 Criar Empresa NFSe",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.Adr",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.Adr\":{\"caption\":\"🏭 Criar Empresa NFSe\",\"fields\":{\"_p_companies.id\":{\"ret_value\":\"text\",\"caption\":\"companies id\",\"sample_value\":\"5fd7ac7162ac1501dc857e48\",\"path\":[\"companies\",\"id\"]},\"_p_companies.name\":{\"ret_value\":\"text\",\"caption\":\"companies name\",\"sample_value\":\"Wayne Enterprises Inc\",\"path\":[\"companies\",\"name\"]},\"_p_companies.tradeName\":{\"ret_value\":\"text\",\"caption\":\"companies tradeName\",\"sample_value\":\"Wayne Enterprises Inc\",\"path\":[\"companies\",\"tradeName\"]},\"_p_companies.federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"companies federalTaxNumber\",\"sample_value\":34785515000166,\"path\":[\"companies\",\"federalTaxNumber\"]},\"_p_companies.email\":{\"ret_value\":\"text\",\"caption\":\"companies email\",\"sample_value\":\"renato@semcodar.com.br\",\"path\":[\"companies\",\"email\"]},\"_p_companies.address.country\":{\"ret_value\":\"text\",\"caption\":\"companies address country\",\"sample_value\":\"BRA\",\"path\":[\"companies\",\"address\",\"country\"]},\"_p_companies.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"companies address postalCode\",\"sample_value\":\"88015-710\",\"path\":[\"companies\",\"address\",\"postalCode\"]},\"_p_companies.address.street\":{\"ret_value\":\"text\",\"caption\":\"companies address street\",\"sample_value\":\"Av Beira Mar\",\"path\":[\"companies\",\"address\",\"street\"]},\"_p_companies.address.number\":{\"ret_value\":\"text\",\"caption\":\"companies address number\",\"sample_value\":\"300\",\"path\":[\"companies\",\"address\",\"number\"]},\"_p_companies.address.additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"companies address additionalInformation\",\"sample_value\":\"-\",\"path\":[\"companies\",\"address\",\"additionalInformation\"]},\"_p_companies.address.district\":{\"ret_value\":\"text\",\"caption\":\"companies address district\",\"sample_value\":\"Centro\",\"path\":[\"companies\",\"address\",\"district\"]},\"_p_companies.address.city.code\":{\"ret_value\":\"text\",\"caption\":\"companies address city code\",\"sample_value\":\"4205407\",\"path\":[\"companies\",\"address\",\"city\",\"code\"]},\"_p_companies.address.city.name\":{\"ret_value\":\"text\",\"caption\":\"companies address city name\",\"sample_value\":\"Florianópolis\",\"path\":[\"companies\",\"address\",\"city\",\"name\"]},\"_p_companies.address.state\":{\"ret_value\":\"text\",\"caption\":\"companies address state\",\"sample_value\":\"SC\",\"path\":[\"companies\",\"address\",\"state\"]},\"_p_companies.taxRegime\":{\"ret_value\":\"text\",\"caption\":\"companies taxRegime\",\"sample_value\":\"SimplesNacional\",\"path\":[\"companies\",\"taxRegime\"]},\"_p_companies.specialTaxRegime\":{\"ret_value\":\"text\",\"caption\":\"companies specialTaxRegime\",\"sample_value\":\"Automatico\",\"path\":[\"companies\",\"specialTaxRegime\"]},\"_p_companies.legalNature\":{\"ret_value\":\"text\",\"caption\":\"companies legalNature\",\"sample_value\":\"EireliNaturezaSimples\",\"path\":[\"companies\",\"legalNature\"]},\"_p_companies.municipalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"companies municipalTaxNumber\",\"sample_value\":\"123456\",\"path\":[\"companies\",\"municipalTaxNumber\"]},\"_p_companies.rpsSerialNumber\":{\"ret_value\":\"text\",\"caption\":\"companies rpsSerialNumber\",\"sample_value\":\"IO\",\"path\":[\"companies\",\"rpsSerialNumber\"]},\"_p_companies.rpsNumber\":{\"ret_value\":\"text\",\"caption\":\"companies rpsNumber\",\"sample_value\":0,\"path\":[\"companies\",\"rpsNumber\"]},\"_p_companies.issRate\":{\"ret_value\":\"number\",\"caption\":\"companies issRate\",\"sample_value\":0,\"path\":[\"companies\",\"issRate\"]},\"_p_companies.environment\":{\"ret_value\":\"text\",\"caption\":\"companies environment\",\"sample_value\":\"Development\",\"path\":[\"companies\",\"environment\"]},\"_p_companies.fiscalStatus\":{\"ret_value\":\"text\",\"caption\":\"companies fiscalStatus\",\"sample_value\":\"Pending\",\"path\":[\"companies\",\"fiscalStatus\"]},\"_p_companies.certificate.status\":{\"ret_value\":\"text\",\"caption\":\"companies certificate status\",\"sample_value\":\"Pending\",\"path\":[\"companies\",\"certificate\",\"status\"]},\"_p_companies.createdOn\":{\"ret_value\":\"date\",\"caption\":\"companies createdOn\",\"sample_value\":\"2020-12-14T18:18:25.4886167+00:00\",\"path\":[\"companies\",\"createdOn\"]},\"_p_companies.modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"companies modifiedOn\",\"sample_value\":\"2020-12-14T18:18:25.4886167+00:00\",\"path\":[\"companies\",\"modifiedOn\"]}}}}",
+            "url": "https://api.nfe.io/v1/companies"
+        },
+        "AeN": {
+            "headers": {
+                "AeO": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "Ajx": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "📄 Consultar por ID uma NFSe",
+            "publish_as": "data",
+            "rank": 8,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.AeN",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AeN\":{\"caption\":\"Consultar por ID uma NFSe ✅\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"5fb3fcc9d5caa60dbc348639\",\"path\":[\"id\"]},\"_p_environment\":{\"ret_value\":\"text\",\"caption\":\"environment\",\"sample_value\":\"Development\",\"path\":[\"environment\"]},\"_p_flowStatus\":{\"ret_value\":\"text\",\"caption\":\"flowStatus\",\"sample_value\":\"Issued\",\"path\":[\"flowStatus\"]},\"_p_provider.tradeName\":{\"ret_value\":\"text\",\"caption\":\"provider tradeName\",\"sample_value\":\"ASSE MARKETING\",\"path\":[\"provider\",\"tradeName\"]},\"_p_provider.taxRegime\":{\"ret_value\":\"text\",\"caption\":\"provider taxRegime\",\"sample_value\":\"SimplesNacional\",\"path\":[\"provider\",\"taxRegime\"]},\"_p_provider.specialTaxRegime\":{\"ret_value\":\"text\",\"caption\":\"provider specialTaxRegime\",\"sample_value\":\"Nenhum\",\"path\":[\"provider\",\"specialTaxRegime\"]},\"_p_provider.legalNature\":{\"ret_value\":\"text\",\"caption\":\"provider legalNature\",\"sample_value\":\"SociedadeEmpresariaLimitada\",\"path\":[\"provider\",\"legalNature\"]},\"_p_provider.issRate\":{\"ret_value\":\"number\",\"caption\":\"provider issRate\",\"sample_value\":0,\"path\":[\"provider\",\"issRate\"]},\"_p_provider.parentId\":{\"ret_value\":\"text\",\"caption\":\"provider parentId\",\"sample_value\":\"5fb3eda48e9d092798b774ce\",\"path\":[\"provider\",\"parentId\"]},\"_p_provider.id\":{\"ret_value\":\"text\",\"caption\":\"provider id\",\"sample_value\":\"5fb3edcef408510d10d37d45\",\"path\":[\"provider\",\"id\"]},\"_p_provider.name\":{\"ret_value\":\"text\",\"caption\":\"provider name\",\"sample_value\":\"ASSE MARKETING E MIDIAS LTDA\",\"path\":[\"provider\",\"name\"]},\"_p_provider.federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"provider federalTaxNumber\",\"sample_value\":36574385000148,\"path\":[\"provider\",\"federalTaxNumber\"]},\"_p_provider.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"provider address postalCode\",\"sample_value\":\"88117-000\",\"path\":[\"provider\",\"address\",\"postalCode\"]},\"_p_provider.address.street\":{\"ret_value\":\"text\",\"caption\":\"provider address street\",\"sample_value\":\"Avenida Leoberto Leal\",\"path\":[\"provider\",\"address\",\"street\"]},\"_p_provider.address.number\":{\"ret_value\":\"text\",\"caption\":\"provider address number\",\"sample_value\":\"790\",\"path\":[\"provider\",\"address\",\"number\"]},\"_p_provider.address.additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"provider address additionalInformation\",\"sample_value\":\"\",\"path\":[\"provider\",\"address\",\"additionalInformation\"]},\"_p_provider.address.district\":{\"ret_value\":\"text\",\"caption\":\"provider address district\",\"sample_value\":\"Barreiros\",\"path\":[\"provider\",\"address\",\"district\"]},\"_p_provider.address.city.code\":{\"ret_value\":\"text\",\"caption\":\"provider address city code\",\"sample_value\":\"4216602\",\"path\":[\"provider\",\"address\",\"city\",\"code\"]},\"_p_provider.address.city.name\":{\"ret_value\":\"text\",\"caption\":\"provider address city name\",\"sample_value\":\"São José\",\"path\":[\"provider\",\"address\",\"city\",\"name\"]},\"_p_provider.address.state\":{\"ret_value\":\"text\",\"caption\":\"provider address state\",\"sample_value\":\"SC\",\"path\":[\"provider\",\"address\",\"state\"]},\"_p_provider.status\":{\"ret_value\":\"text\",\"caption\":\"provider status\",\"sample_value\":\"Active\",\"path\":[\"provider\",\"status\"]},\"_p_provider.type\":{\"ret_value\":\"text\",\"caption\":\"provider type\",\"sample_value\":\"LegalPerson, Company\",\"path\":[\"provider\",\"type\"]},\"_p_provider.createdOn\":{\"ret_value\":\"date\",\"caption\":\"provider createdOn\",\"sample_value\":\"2020-11-17T15:35:42.4433544+00:00\",\"path\":[\"provider\",\"createdOn\"]},\"_p_provider.modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"provider modifiedOn\",\"sample_value\":\"2020-11-17T15:35:42.6347462+00:00\",\"path\":[\"provider\",\"modifiedOn\"]},\"_p_borrower.id\":{\"ret_value\":\"text\",\"caption\":\"borrower id\",\"sample_value\":\"5fb3fcc9d5caa60dbc34863a\",\"path\":[\"borrower\",\"id\"]},\"_p_borrower.name\":{\"ret_value\":\"text\",\"caption\":\"borrower name\",\"sample_value\":\"Joao Silva\",\"path\":[\"borrower\",\"name\"]},\"_p_borrower.federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"borrower federalTaxNumber\",\"sample_value\":29247321077,\"path\":[\"borrower\",\"federalTaxNumber\"]},\"_p_borrower.email\":{\"ret_value\":\"text\",\"caption\":\"borrower email\",\"sample_value\":\"renato@semcodar.com.br\",\"path\":[\"borrower\",\"email\"]},\"_p_borrower.address.country\":{\"ret_value\":\"text\",\"caption\":\"borrower address country\",\"sample_value\":\"BRA\",\"path\":[\"borrower\",\"address\",\"country\"]},\"_p_borrower.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"borrower address postalCode\",\"sample_value\":\"88015-710\",\"path\":[\"borrower\",\"address\",\"postalCode\"]},\"_p_borrower.address.street\":{\"ret_value\":\"text\",\"caption\":\"borrower address street\",\"sample_value\":\"Av Beira Mar\",\"path\":[\"borrower\",\"address\",\"street\"]},\"_p_borrower.address.number\":{\"ret_value\":\"text\",\"caption\":\"borrower address number\",\"sample_value\":\"3000\",\"path\":[\"borrower\",\"address\",\"number\"]},\"_p_borrower.address.district\":{\"ret_value\":\"text\",\"caption\":\"borrower address district\",\"sample_value\":\"Centro\",\"path\":[\"borrower\",\"address\",\"district\"]},\"_p_borrower.address.city.code\":{\"ret_value\":\"text\",\"caption\":\"borrower address city code\",\"sample_value\":\"4205407\",\"path\":[\"borrower\",\"address\",\"city\",\"code\"]},\"_p_borrower.address.city.name\":{\"ret_value\":\"text\",\"caption\":\"borrower address city name\",\"sample_value\":\"Florianópolis\",\"path\":[\"borrower\",\"address\",\"city\",\"name\"]},\"_p_borrower.address.state\":{\"ret_value\":\"text\",\"caption\":\"borrower address state\",\"sample_value\":\"SC\",\"path\":[\"borrower\",\"address\",\"state\"]},\"_p_borrower.status\":{\"ret_value\":\"text\",\"caption\":\"borrower status\",\"sample_value\":\"Active\",\"path\":[\"borrower\",\"status\"]},\"_p_borrower.type\":{\"ret_value\":\"text\",\"caption\":\"borrower type\",\"sample_value\":\"NaturalPerson\",\"path\":[\"borrower\",\"type\"]},\"_p_borrower.createdOn\":{\"ret_value\":\"date\",\"caption\":\"borrower createdOn\",\"sample_value\":\"2020-11-17T16:39:37.6500869+00:00\",\"path\":[\"borrower\",\"createdOn\"]},\"_p_batchNumber\":{\"ret_value\":\"text\",\"caption\":\"batchNumber\",\"sample_value\":22515212920539,\"path\":[\"batchNumber\"]},\"_p_batchCheckNumber\":{\"ret_value\":\"text\",\"caption\":\"batchCheckNumber\",\"sample_value\":\"122515212920539\",\"path\":[\"batchCheckNumber\"]},\"_p_number\":{\"ret_value\":\"number\",\"caption\":\"number\",\"sample_value\":1,\"path\":[\"number\"]},\"_p_checkCode\":{\"ret_value\":\"text\",\"caption\":\"checkCode\",\"sample_value\":\"122515212920539\",\"path\":[\"checkCode\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Issued\",\"path\":[\"status\"]},\"_p_rpsType\":{\"ret_value\":\"text\",\"caption\":\"rpsType\",\"sample_value\":\"Rps\",\"path\":[\"rpsType\"]},\"_p_rpsStatus\":{\"ret_value\":\"text\",\"caption\":\"rpsStatus\",\"sample_value\":\"Normal\",\"path\":[\"rpsStatus\"]},\"_p_taxationType\":{\"ret_value\":\"text\",\"caption\":\"taxationType\",\"sample_value\":\"WithinCity\",\"path\":[\"taxationType\"]},\"_p_issuedOn\":{\"ret_value\":\"date\",\"caption\":\"issuedOn\",\"sample_value\":\"2020-11-17T13:39:37.6500869-03:00\",\"path\":[\"issuedOn\"]},\"_p_rpsSerialNumber\":{\"ret_value\":\"text\",\"caption\":\"rpsSerialNumber\",\"sample_value\":\"IO\",\"path\":[\"rpsSerialNumber\"]},\"_p_rpsNumber\":{\"ret_value\":\"number\",\"caption\":\"rpsNumber\",\"sample_value\":1,\"path\":[\"rpsNumber\"]},\"_p_cityServiceCode\":{\"ret_value\":\"text\",\"caption\":\"cityServiceCode\",\"sample_value\":\"10.01\",\"path\":[\"cityServiceCode\"]},\"_p_federalServiceCode\":{\"ret_value\":\"text\",\"caption\":\"federalServiceCode\",\"sample_value\":\"8.02\",\"path\":[\"federalServiceCode\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Venda de Treinamento XYZ\\n\\n\\nCONFORME LEI 12.741/2012 o valor aproximado dos tributos é R$24,35 (16,23%), FONTE: IBPT/empresometro.com.br (20.1.B)\",\"path\":[\"description\"]},\"_p_servicesAmount\":{\"ret_value\":\"number\",\"caption\":\"servicesAmount\",\"sample_value\":150,\"path\":[\"servicesAmount\"]},\"_p_deductionsAmount\":{\"ret_value\":\"number\",\"caption\":\"deductionsAmount\",\"sample_value\":0,\"path\":[\"deductionsAmount\"]},\"_p_discountUnconditionedAmount\":{\"ret_value\":\"number\",\"caption\":\"discountUnconditionedAmount\",\"sample_value\":0,\"path\":[\"discountUnconditionedAmount\"]},\"_p_discountConditionedAmount\":{\"ret_value\":\"number\",\"caption\":\"discountConditionedAmount\",\"sample_value\":0,\"path\":[\"discountConditionedAmount\"]},\"_p_baseTaxAmount\":{\"ret_value\":\"number\",\"caption\":\"baseTaxAmount\",\"sample_value\":150,\"path\":[\"baseTaxAmount\"]},\"_p_issRate\":{\"ret_value\":\"number\",\"caption\":\"issRate\",\"sample_value\":0,\"path\":[\"issRate\"]},\"_p_issTaxAmount\":{\"ret_value\":\"number\",\"caption\":\"issTaxAmount\",\"sample_value\":0,\"path\":[\"issTaxAmount\"]},\"_p_irAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"irAmountWithheld\",\"sample_value\":0,\"path\":[\"irAmountWithheld\"]},\"_p_pisAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"pisAmountWithheld\",\"sample_value\":0,\"path\":[\"pisAmountWithheld\"]},\"_p_cofinsAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"cofinsAmountWithheld\",\"sample_value\":0,\"path\":[\"cofinsAmountWithheld\"]},\"_p_csllAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"csllAmountWithheld\",\"sample_value\":0,\"path\":[\"csllAmountWithheld\"]},\"_p_inssAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"inssAmountWithheld\",\"sample_value\":0,\"path\":[\"inssAmountWithheld\"]},\"_p_issAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"issAmountWithheld\",\"sample_value\":0,\"path\":[\"issAmountWithheld\"]},\"_p_othersAmountWithheld\":{\"ret_value\":\"number\",\"caption\":\"othersAmountWithheld\",\"sample_value\":0,\"path\":[\"othersAmountWithheld\"]},\"_p_amountWithheld\":{\"ret_value\":\"number\",\"caption\":\"amountWithheld\",\"sample_value\":0,\"path\":[\"amountWithheld\"]},\"_p_amountNet\":{\"ret_value\":\"number\",\"caption\":\"amountNet\",\"sample_value\":150,\"path\":[\"amountNet\"]},\"_p_approximateTax.source\":{\"ret_value\":\"text\",\"caption\":\"approximateTax source\",\"sample_value\":\"IBPT/empresometro.com.br\",\"path\":[\"approximateTax\",\"source\"]},\"_p_approximateTax.version\":{\"ret_value\":\"text\",\"caption\":\"approximateTax version\",\"sample_value\":\"20.1.B\",\"path\":[\"approximateTax\",\"version\"]},\"_p_approximateTax.totalRate\":{\"ret_value\":\"number\",\"caption\":\"approximateTax totalRate\",\"sample_value\":0.1623,\"path\":[\"approximateTax\",\"totalRate\"]},\"_p_createdOn\":{\"ret_value\":\"date\",\"caption\":\"createdOn\",\"sample_value\":\"2020-11-17T16:39:37.6500869+00:00\",\"path\":[\"createdOn\"]},\"_p_modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"modifiedOn\",\"sample_value\":\"2020-11-17T16:40:03.6477182+00:00\",\"path\":[\"modifiedOn\"]}}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]/serviceinvoices/[id_nota_fiscal]",
+            "url_params": {
+                "Afn": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "private": true,
+                    "value": "5fb3edcef408510d10d37d45"
+                },
+                "Afo": {
+                    "doc": "ID da Nota Fiscal de Serviço (NFSE)",
+                    "key": "id_nota_fiscal",
+                    "private": true,
+                    "value": "5fb3fcc9d5caa60dbc348639"
+                }
+            }
+        },
+        "Aef": {
+            "0": "A",
+            "1": "e",
+            "2": "e",
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/Companies/Companies_Get",
+            "headers": {
+                "Adq": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "Aha": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "🏭 Detalhes de uma empresa NFSe",
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.Aef",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.Aef\":{\"caption\":\"🏭 Detalhes de uma empresa NFSe\",\"fields\":{\"_p_companies.id\":{\"ret_value\":\"text\",\"caption\":\"companies id\",\"sample_value\":\"5fb3edcef408510d10d37d45\",\"path\":[\"companies\",\"id\"]},\"_p_companies.name\":{\"ret_value\":\"text\",\"caption\":\"companies name\",\"sample_value\":\"ASSE MARKETING E MIDIAS LTDA\",\"path\":[\"companies\",\"name\"]},\"_p_companies.tradeName\":{\"ret_value\":\"text\",\"caption\":\"companies tradeName\",\"sample_value\":\"ASSE MARKETING\",\"path\":[\"companies\",\"tradeName\"]},\"_p_companies.federalTaxNumber\":{\"ret_value\":\"text\",\"caption\":\"companies federalTaxNumber\",\"sample_value\":36574385000148,\"path\":[\"companies\",\"federalTaxNumber\"]},\"_p_companies.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"companies address postalCode\",\"sample_value\":\"88117-000\",\"path\":[\"companies\",\"address\",\"postalCode\"]},\"_p_companies.address.street\":{\"ret_value\":\"text\",\"caption\":\"companies address street\",\"sample_value\":\"Avenida Leoberto Leal\",\"path\":[\"companies\",\"address\",\"street\"]},\"_p_companies.address.number\":{\"ret_value\":\"text\",\"caption\":\"companies address number\",\"sample_value\":\"790\",\"path\":[\"companies\",\"address\",\"number\"]},\"_p_companies.address.additionalInformation\":{\"ret_value\":\"text\",\"caption\":\"companies address additionalInformation\",\"sample_value\":\"\",\"path\":[\"companies\",\"address\",\"additionalInformation\"]},\"_p_companies.address.district\":{\"ret_value\":\"text\",\"caption\":\"companies address district\",\"sample_value\":\"Barreiros\",\"path\":[\"companies\",\"address\",\"district\"]},\"_p_companies.address.city.code\":{\"ret_value\":\"text\",\"caption\":\"companies address city code\",\"sample_value\":\"4216602\",\"path\":[\"companies\",\"address\",\"city\",\"code\"]},\"_p_companies.address.city.name\":{\"ret_value\":\"text\",\"caption\":\"companies address city name\",\"sample_value\":\"São José\",\"path\":[\"companies\",\"address\",\"city\",\"name\"]},\"_p_companies.address.state\":{\"ret_value\":\"text\",\"caption\":\"companies address state\",\"sample_value\":\"SC\",\"path\":[\"companies\",\"address\",\"state\"]},\"_p_companies.taxRegime\":{\"ret_value\":\"text\",\"caption\":\"companies taxRegime\",\"sample_value\":\"SimplesNacional\",\"path\":[\"companies\",\"taxRegime\"]},\"_p_companies.specialTaxRegime\":{\"ret_value\":\"text\",\"caption\":\"companies specialTaxRegime\",\"sample_value\":\"Nenhum\",\"path\":[\"companies\",\"specialTaxRegime\"]},\"_p_companies.legalNature\":{\"ret_value\":\"text\",\"caption\":\"companies legalNature\",\"sample_value\":\"SociedadeEmpresariaLimitada\",\"path\":[\"companies\",\"legalNature\"]},\"_p_companies.rpsSerialNumber\":{\"ret_value\":\"text\",\"caption\":\"companies rpsSerialNumber\",\"sample_value\":\"IO\",\"path\":[\"companies\",\"rpsSerialNumber\"]},\"_p_companies.rpsNumber\":{\"ret_value\":\"text\",\"caption\":\"companies rpsNumber\",\"sample_value\":3,\"path\":[\"companies\",\"rpsNumber\"]},\"_p_companies.issRate\":{\"ret_value\":\"number\",\"caption\":\"companies issRate\",\"sample_value\":0,\"path\":[\"companies\",\"issRate\"]},\"_p_companies.environment\":{\"ret_value\":\"text\",\"caption\":\"companies environment\",\"sample_value\":\"Development\",\"path\":[\"companies\",\"environment\"]},\"_p_companies.fiscalStatus\":{\"ret_value\":\"text\",\"caption\":\"companies fiscalStatus\",\"sample_value\":\"Pending\",\"path\":[\"companies\",\"fiscalStatus\"]},\"_p_companies.certificate.status\":{\"ret_value\":\"text\",\"caption\":\"companies certificate status\",\"sample_value\":\"Pending\",\"path\":[\"companies\",\"certificate\",\"status\"]},\"_p_companies.createdOn\":{\"ret_value\":\"date\",\"caption\":\"companies createdOn\",\"sample_value\":\"2020-11-17T15:35:42.4433544+00:00\",\"path\":[\"companies\",\"createdOn\"]},\"_p_companies.modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"companies modifiedOn\",\"sample_value\":\"2020-11-17T15:35:42.6347462+00:00\",\"path\":[\"companies\",\"modifiedOn\"]}}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]",
+            "url_params": {
+                "Agt": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "private": true,
+                    "value": "5fb3edcef408510d10d37d45"
+                }
+            }
+        },
+        "Aft": {
+            "0": "A",
+            "1": "f",
+            "2": "s",
+            "data_type": "file",
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/ServiceInvoices/ServiceInvoices_GetDocumentPdf",
+            "get_headers": false,
+            "headers": {
+                "AeO": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "Ajy": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "📄 Download do PDF da NFSe",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 9,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.Aft",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.Aft\":{\"caption\":\"Consultar o PDF por ID de uma NFE ✅\",\"fields\":{}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]/serviceinvoices/[id_nota_fiscal]/pdf",
+            "url_params": {
+                "Afn": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "private": true,
+                    "value": "5fb3edcef408510d10d37d45"
+                },
+                "Afo": {
+                    "doc": "ID da Nota Fiscal de Serviço (NFSE)",
+                    "key": "id_nota_fiscal",
+                    "private": true,
+                    "value": "5fb3fcc9d5caa60dbc348639"
+                }
+            }
+        },
+        "Afv": {
+            "0": "A",
+            "1": "f",
+            "2": "u",
+            "data_type": "file",
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/ServiceInvoices/ServiceInvoices_GetDocumentXml",
+            "headers": {
+                "AeO": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "AkC": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "📄 Download do XML da NFSe",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 10,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.Afv",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.Afv\":{\"caption\":\"Consultar o XML por ID de uma NFSe ✅\",\"fields\":{\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"sample_value\":\"string\",\"path\":[\"uri\"]}}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]/serviceinvoices/[id_nota_fiscal]/xml",
+            "url_params": {
+                "Afn": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "private": true,
+                    "value": "5fb3edcef408510d10d37d45"
+                },
+                "Afo": {
+                    "doc": "ID da Nota Fiscal de Serviço (NFSE)",
+                    "key": "id_nota_fiscal",
+                    "private": true,
+                    "value": "5fb402073d6b070dcca32d3a"
+                }
+            }
+        },
+        "Afz": {
+            "0": "A",
+            "1": "f",
+            "2": "y",
+            "body": "",
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/ServiceInvoices/ServiceInvoices_Delete",
+            "headers": {
+                "AeO": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "Ajz": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "delete_method",
+            "name": "📄 Cancelar uma NFSe",
+            "publish_as": "action",
+            "rank": 11,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.Afz",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.Afz\":{\"caption\":\"✅Deletar uma NFE por ID\",\"fields\":{}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]/serviceinvoices/[id_nota_fiscal]",
+            "url_params": {
+                "Afn": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "private": true,
+                    "value": "dcd0918efd8444f785fc16fca38ef540"
+                },
+                "Afo": {
+                    "doc": "ID da Nota Fiscal de Serviço (NFSE)",
+                    "key": "id_nota_fiscal",
+                    "private": true,
+                    "value": "2ce25719cbcc450eaf0d4283cb1d7946"
+                }
+            }
+        },
+        "Agd": {
+            "0": "A",
+            "1": "g",
+            "2": "c",
+            "body_type": "form_data",
+            "data_type": "JSON",
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/Companies/Companies_CertificateUpload",
+            "get_headers": true,
+            "headers": {
+                "Agg": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "private": true,
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "Ahd": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "🏭 Upload certificado digital ",
+            "params": {
+                "AfV": {
+                    "binary_file": true,
+                    "doc": "Informe o certificado. (FILE)",
+                    "key": "file",
+                    "optional": false,
+                    "private": true,
+                    "value": "//s3.amazonaws.com/appforest_uf/f1607960845266x345211393028069800/Wayne%20Enterprises%2C%20Inc.pfx",
+                    "visibility": "public"
+                },
+                "AfW": {
+                    "doc": "Informe a senha do certificado.",
+                    "key": "password",
+                    "optional": false,
+                    "private": true,
+                    "value": "123456"
+                }
+            },
+            "publish_as": "action",
+            "rank": 4,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.Agd",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.Agd\":{\"caption\":\"🏭 Upload certificado digital \",\"fields\":{\"_p_headers.content-length\":{\"ret_value\":\"_ignore\"},\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"sample_value\":\"Mon, 14 Dec 2020 15:47:27 GMT\",\"path\":[\"headers\",\"date\"]},\"_p_headers.server\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]/certificate",
+            "url_params": {
+                "Agf": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "private": true,
+                    "value": "5fb3edcef408510d10d37d45"
+                }
+            }
+        },
+        "AkD": {
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/Webhooks/Webhooks_Get",
+            "headers": {
+                "AlK": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "private": true,
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "AlL": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "⚓ Listar os webhooks da conta",
+            "publish_as": "data",
+            "rank": 12,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.AkD",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AkD\":{\"caption\":\"API Call\",\"fields\":{\"_p_hooks\":{\"ret_value\":\"list.api.1606080141691x984684519179157500.plugin_api.AkD.hooks\",\"caption\":\"hooks\",\"path\":[\"hooks\"]},\"_p_totalResults\":{\"ret_value\":\"number\",\"caption\":\"totalResults\",\"sample_value\":0,\"path\":[\"totalResults\"]},\"_p_totalPages\":{\"ret_value\":\"number\",\"caption\":\"totalPages\",\"sample_value\":0,\"path\":[\"totalPages\"]},\"_p_page\":{\"ret_value\":\"number\",\"caption\":\"page\",\"sample_value\":0,\"path\":[\"page\"]}}},\"plugin_api.AkD.hooks\":{\"caption\":\"API Call hook\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":0,\"path\":[\"id\"]},\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"sample_value\":\"string\",\"path\":[\"url\"]},\"_p_contentType\":{\"ret_value\":\"text\",\"caption\":\"contentType\",\"sample_value\":\"string\",\"path\":[\"contentType\"]},\"_p_secret\":{\"ret_value\":\"text\",\"caption\":\"secret\",\"sample_value\":\"string\",\"path\":[\"secret\"]},\"_p_events\":{\"ret_value\":\"list.text\",\"caption\":\"events\",\"sample_value\":\"string\",\"path\":[\"events\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"Inactive\",\"path\":[\"status\"]},\"_p_createdOn\":{\"ret_value\":\"text\",\"caption\":\"createdOn\",\"sample_value\":\"2020-11-23T20:39:29.083Z\",\"path\":[\"createdOn\"]},\"_p_modifiedOn\":{\"ret_value\":\"text\",\"caption\":\"modifiedOn\",\"sample_value\":\"2020-11-23T20:39:29.083Z\",\"path\":[\"modifiedOn\"]}}}}",
+            "url": "https://api.nfe.io/v1/hooks"
+        },
+        "AkF": {
+            "0": "A",
+            "1": "k",
+            "2": "E",
+            "body": "{\n  \"url\": \"<url>\",\n  \"events\": [\n    \"<events>\"\n  ],\n  \"status\": \"Active\",\n}",
+            "body_params": {
+                "AlE": {
+                    "doc": "URL do Webhook\n\nSugiro sempre usar o https://webhook.site para testar recebimento de notificações antes de configurar o API Endpoint no Bubble.",
+                    "key": "url",
+                    "private": true,
+                    "value": ""
+                },
+                "AlF": {
+                    "doc": "Lista de filtros sem distinção entre maiúsculas e minúsculas associado a este webhook.\nOs filtros são usados para determinar em quais notificações dos eventos esse WebHook será notificado.\nOs valores de filtros suportados pode ser consultados através do requisição do Tipos de Eventos.\n\nUse somente os eventos que dizem (use only for Webhooks).\n\nPara enviar mais de um evento, use ao final da expressão:\n:join with \", \"\nOu seja, dessa forma você vai enviar os eventos separados por aspas, vírgula, espaço, aspas.\n",
+                    "key": "events",
+                    "private": true,
+                    "value": "issue\", \"cancel"
+                }
+            },
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/Webhooks/Webhooks_Post",
+            "headers": {
+                "AlH": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "private": true,
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "AlI": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "⚓ Criar webhook",
+            "publish_as": "action",
+            "rank": 13,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.AkF",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AkF\":{\"caption\":\"⚓ Criar webhook\",\"fields\":{\"_p_hooks.id\":{\"ret_value\":\"text\",\"caption\":\"hooks id\",\"sample_value\":0,\"path\":[\"hooks\",\"id\"]},\"_p_hooks.url\":{\"ret_value\":\"text\",\"caption\":\"hooks url\",\"sample_value\":\"string\",\"path\":[\"hooks\",\"url\"]},\"_p_hooks.contentType\":{\"ret_value\":\"text\",\"caption\":\"hooks contentType\",\"sample_value\":\"string\",\"path\":[\"hooks\",\"contentType\"]},\"_p_hooks.secret\":{\"ret_value\":\"text\",\"caption\":\"hooks secret\",\"sample_value\":\"string\",\"path\":[\"hooks\",\"secret\"]},\"_p_hooks.events\":{\"ret_value\":\"list.text\",\"caption\":\"hooks events\",\"sample_value\":\"string\",\"path\":[\"hooks\",\"events\"]},\"_p_hooks.status\":{\"ret_value\":\"text\",\"caption\":\"hooks status\",\"sample_value\":\"Inactive\",\"path\":[\"hooks\",\"status\"]},\"_p_hooks.createdOn\":{\"ret_value\":\"date\",\"caption\":\"hooks createdOn\",\"sample_value\":\"2020-12-14T14:42:27.791Z\",\"path\":[\"hooks\",\"createdOn\"]},\"_p_hooks.modifiedOn\":{\"ret_value\":\"date\",\"caption\":\"hooks modifiedOn\",\"sample_value\":\"2020-12-14T14:42:27.791Z\",\"path\":[\"hooks\",\"modifiedOn\"]}}}}",
+            "url": "https://api.nfe.io/v1/hooks"
+        },
+        "AkN": {
+            "0": "A",
+            "1": "k",
+            "2": "M",
+            "data_type": "JSON",
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/EventTypes/EventTypes_GetAll",
+            "get_headers": false,
+            "headers": {
+                "Adm": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "Ahb": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "🏭 Listar tipos de Eventos",
+            "publish_as": "data",
+            "rank": 5,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.AkN",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AkN\":{\"caption\":\"🏭 Listar tipos de Evento\",\"fields\":{\"_p_eventTypes\":{\"ret_value\":\"list.api.1606080141691x984684519179157500.plugin_api.AkN.eventTypes\",\"caption\":\"eventTypes\",\"path\":[\"eventTypes\"]}}},\"plugin_api.AkN.eventTypes\":{\"caption\":\"🏭 Listar tipos de Eventos eventType\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"issue\",\"path\":[\"id\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"(Use only for Webhooks) Triggered when service invoice (NFSe) processing has been Issued, either successfully or failed.\",\"path\":[\"description\"]}}}}",
+            "url": "https://api.nfe.io/v1/eventTypes"
+        },
+        "AlA": {
+            "0": "A",
+            "1": "k",
+            "2": "z",
+            "body": "",
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/Webhooks/Webhooks_Delete",
+            "get_headers": true,
+            "headers": {
+                "AlG": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "private": true,
+                    "value": "nFOJk3zs4W0FvJUehj9Zx0VpH13ifIxnCs9guxxvYFZvIYbiWOI5s0xY4JNLRUb40yk"
+                },
+                "AlJ": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "delete_method",
+            "name": "⚓ Excluir um Webhook",
+            "publish_as": "action",
+            "rank": 14,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.AlA",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AlA\":{\"caption\":\"⚓ Excluir um Webhook\",\"fields\":{\"_p_headers.content-length\":{\"ret_value\":\"_ignore\"},\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"sample_value\":\"Mon, 14 Dec 2020 15:26:26 GMT\",\"path\":[\"headers\",\"date\"]},\"_p_headers.server\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.nfe.io/v1/hooks/[hook_id]",
+            "url_params": {
+                "AlC": {
+                    "doc": "ID do Webhook (obtido com a chamada \"Listar os webhooks\")",
+                    "key": "hook_id",
+                    "private": true,
+                    "value": "22757824019898"
+                }
+            }
+        },
+        "AlN": {
+            "0": "A",
+            "1": "l",
+            "2": "M",
+            "body": "",
+            "doc_link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/#/Companies/Companies_Delete",
+            "get_headers": true,
+            "headers": {
+                "Ads": {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "visibility": "hidden"
+                },
+                "Adt": {
+                    "doc": "Chave de API obtida em seu painel NFe.io, em \"Chaves de Acesso\".",
+                    "key": "Authorization",
+                    "value": "fs1k4veXc1DMf08BdTb9K3Jda3MTVq5AUpWvGu9E9q54ZCub1fd3r4zoW3sTqazyKqt"
+                }
+            },
+            "initialized": true,
+            "method": "delete_method",
+            "name": "🏭 Excluir Empresa NFSe",
+            "publish_as": "action",
+            "rank": 2,
+            "ret_value": "api.1606080141691x984684519179157500.plugin_api.AlN",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AlN\":{\"caption\":\"🏭 Excluir Empresa NFSe\",\"fields\":{\"_p_headers.content-length\":{\"ret_value\":\"_ignore\"},\"_p_headers.date\":{\"ret_value\":\"date\",\"caption\":\"headers date\",\"sample_value\":\"Mon, 14 Dec 2020 18:02:27 GMT\",\"path\":[\"headers\",\"date\"]},\"_p_headers.server\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.nfe.io/v1/companies/[id_empresa]",
+            "url_params": {
+                "AlO": {
+                    "doc": "ID da Empresa (company id), obtido com a chamada \"Listar Empresas\"",
+                    "key": "id_empresa",
+                    "private": true,
+                    "value": "5fd7a8924f2a9c0b74eb82dd"
+                }
+            }
+        }
+    },
+    "human": "NFSe"
+}

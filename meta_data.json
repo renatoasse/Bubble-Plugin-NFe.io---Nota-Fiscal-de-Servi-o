@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "productivity"
+    },
+    "description": "Neste plugin constam as chamadas da NFE.io para Notas Fiscais de Serviço (NFSe).\n\nPara notas fiscais de produto ou de consumidor, utilize os outros plugins.\n\nO processo é o seguinte:\n1) Crie a empresa\n2) Faça o upload do certificado digital da empresa\n3) Emita a nota fiscal\n4) Configure os webhooks\n\nEste plugin foi criado para uso dos membros da Comunidade Sem Codar, a maior comunidade No-Code do Brasil.\nPara dúvidas, acesse o grupo exclusivo dos membros em https://grupo.semcodar.com.br\n\nAssista as aulas ensinando a usar essa integração na plataforma do curso em https://comunidade.semcodar.com.br .",
+    "image": "//s3.amazonaws.com/appforest_uf/f1582833171104x468745410414806100/logo-plugin-nfeio.png",
+    "license": "open_source",
+    "link": "https://nfe.io/docs/desenvolvedores/rest-api/nota-fiscal-de-servico-v1/",
+    "name": "NFe.io - Nota Fiscal de Serviço",
+    "plugin_instructions": ""
+}
